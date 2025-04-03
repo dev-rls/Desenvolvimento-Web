@@ -1,0 +1,173 @@
+<!--01) Formulário de contato simples 
+Objetivo: Criar um formulario de contato com campos básicos como nome, email, telefone e mensagem-->
+
+<!DOCTYPE html>
+<form action="#" method="post">
+
+    <title> Forms </title>
+    <h1> Preencha o formulário </h1>
+    <h3> 1. Dados Pessoais </h3>
+
+    <label for="Nome completo"> Nome completo:</label> <br>
+    <input type="Nome completo" id="Nome completo" name="Nome completo" required><br><br>
+
+    <label for="Sexo"> Sexo </label> <br> 
+    <input type="radio" name="Feminino" value="Feminino"> Feminino
+    <input type="radio" name="Masculino" value="Masculino"> Masculino
+    <input type="radio" name="Outros" value="Outros"> Outros<br><br>
+
+    <label for="CPF"> CPF:</label> <br>
+    <input type="CPF" id="CPF" name="CPF" required><br><br>
+
+    <label for="RG"> RG:</label> <br>
+    <input type="RG" id="RG" name="RG" required><br><br>
+
+    <label for="email">Email:</label> <br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="estadoCivel">Estado Civil:</label><br>
+    <input type="radio" name="estadoCivil" value="Casado(a)"> Casado(a)<br>
+    <input type="radio" name="estadoCivil" value="Solteiro(a)"> Solteiro(a)<br>
+    <input type="radio" name="estadoCivil" value="Divorciado(a)"> Divorciado(a)<br>
+    <input type="radio" name="estadoCivil" value="Viúvo(a)"> Viúvo(a)<br><br>
+
+    <label for="Telefone">Telefone:</label> <br>
+    <input type="tel" id="Telefone" name="Telefone" required><br><br>
+
+    <label for="Data_de_nascimento">Data_de_nascimento:</label>
+    <input type="Date" id="Data_de_nascimento" name="Data_de_nascimento" required><br><br>
+
+    <label for="Endereço">Endereço:</label> <br>
+    <input type="Endereço" id="Endereço" name="Endereço" required><br><br>
+ 
+    <h3> 2. Dados Financeiros </h3>
+
+    <label for="Renda mensal"> Renda mensal::</label> <br>
+    <input type="Renda mensal" id="Renda mensal" name="Renda mensal" required><br><br>
+
+    <label for="Despesas mensais"> Despesas mensais:</label> <br>
+    <input type="Despesas mensais" id="Despesas mensais" name="Despesas mensais" required><br><br>
+
+    
+    <label for="Possui dívidas?"> Possui dívidas?</label>
+    <input type="radio" name="Sim" value="Sim"> Sim
+    <input type="radio" name="Não" value="Não"> Não<br>
+
+    <h3> 3. Dados Comerciais </h3>
+    <label for="Nome da empresa"> Nome da empresa:</label> <br>
+    <input type="Nome da empresa" id="Nome da empresa" name="Nome da empresa" required><br><br>
+
+    <label for="CNPJ"> CNPJ:</label> <br>
+    <input type="CNPJ" id="CNPJ" name="CNPJ" required><br><br>
+
+    <label for="Endereço"> Endereço:</label> <br>
+    <input type="Endereço" id="Endereço" name="Endereço" required><br><br>
+
+    <label for="Tipo de negócio"> Tipo de negócio:</label> <br>
+    <input type="Tipo de  negócio" id="Tipo de negócio" name="Tipo de negócio" required><br><br>
+
+    <label for="Receita mensal"> Receita mensal:</label> <br>
+    <input type="radio" name="Renda mensal" value="R$ 100 a R$ 1.000"> R$ 100 a R$ 1.000<br>
+    <input type="radio" name="Renda mensal" value="R$ 1.001 a R$ 10.000"> R$ 100 a R$ 1.000<br>
+    <input type="radio" name="Renda mensal" value="R$ 10.001 a R$ 100.000"> R$ 100 a R$ 1.000<br><br>
+
+    <label for="Despesas comerciais"> Despesas comerciais:</label> <br>
+    <input type="Despesas comerciais" id="Despesas comerciais" name="Despesas mensais" required><br><br>
+
+    <h3> 4. Cadastro de Veículo </h3>
+    <label for="Nome do proprietário"> Nome do proprietário:</label> <br>
+    <input type="Nome do proprietário" id="Nome do proprietário" name="Nome do proprietário" required><br><br>
+
+    <label for="Marca do veículo"> Marca do veículo:</label> <br>
+    <input type="Marca do veículo" id="Marca do veículo" name="Marca do veículo" required><br><br>
+
+    <label for="Modelo"> Modelo:</label> <br>
+    <input type="Modelo" id="Modelo" name="Modelo" required><br><br>
+
+    <label for="Ano de fabricação"> Ano de fabricação:</label><br>
+    <input type="Ano de fabricação" id="Ano de fabricação" name="Ano de fabricação" required><br><br>
+
+    <label for="Placa"> Placa:</label> <br>
+    <input type="Placa" id="Placa" name="Placa" required><br><br>
+
+    <label for="Número do Renavam"> Número do Renavam:</label><br>
+    <input type="Número do Renavam" id="Número do Renavam:" name="Número do Renavam" required><br><br>
+
+    <h3> 5. Cadastro de Imóvel </h3>
+    <label for="Nome do proprietário"> Nome do proprietário:</label> <br>
+    <input type="Nome do proprietário" id="Nome do proprietário" name="Nome do proprietário" required><br><br>
+
+    <label for="Endereço do imóvel"> Endereço do imóvel:</label> <br>
+    <input type="Endereço do imóvel" id="Endereço do imóvel" name="Endereço do imóvel" required><br><br>
+
+    <label for="Tipo de imóvel (casa, apartamento, comercial):"> Tipo de imóvel (casa, apartamento, comercial):</label> <br>
+    <input type="Tipo de imóvel (casa, apartamento, comercial):" id="Tipo de imóvel (casa, apartamento, comercial)" name="Tipo de imóvel (casa, apartamento, comercial)" required><br><br>
+
+    <label for="Valor de mercado"> Valor de mercado:</label><br>
+    <input type="Valor de mercado" id="Valor de mercado" name="Valor de mercado" required><br><br>
+
+    <label for="Área total (m²)"> Área total (m²):</label> <br>
+    <input type="Área total (m²)" id="Área total (m²)" name="Área total (m²)" required><br><br>
+
+    <label for="Registro no cartório?"> Registro no cartório? </label>
+    <input type="radio" name="Sim" value="Sim"> Sim
+    <input type="radio" name="Não" value="Não"> Não<br><br>
+
+    <h3> 6. Dados do Cônjuge </h3>
+    <label for="Nome completo"> Nome completo:</label> <br>
+    <input type="Nome completo" id="Nome completo" name="Nome completo" required><br><br>
+
+    <label for="Data_de_nascimento">Data_de_nascimento:</label>
+    <input type="Date" id="Data_de_nascimento" name="Data_de_nascimento" required><br><br>
+
+    <label for="CPF"> CPF:</label> <br>
+    <input type="CPF" id="CPF" name="CPF" required><br><br>
+
+    <label for="Profissão"> Profissão:</label><br>
+    <input type="Profissão" id="Profissão" name="Profissão" required><br><br>
+
+    <label for="Tempo de casamento"> Tempo de casamento:</label> <br>
+    <input type="Tempo de casamento" id="Tempo de casamento" name="Tempo de casamento" required><br><br>
+
+    <label for="Contato">Contato:</label> <br>
+    <input type="tel" id="Contato" name="Contato" required><br><br>
+
+    <h3> 7. Dados dos Filhos </h3>
+    <label for="Nome completo"> Nome completo:</label> <br>
+    <input type="Nome completo" id="Nome completo" name="Nome completo" required><br><br>
+
+    <label for="Data_de_nascimento">Data_de_nascimento:</label>
+    <input type="Date" id="Data_de_nascimento" name="Data_de_nascimento" required><br><br>
+
+    <label for="CPF"> CPF (se aplicável):</label> <br>
+    <input type="CPF (se aplicável)" id="CPF (se aplicável)" name="CPF (se aplicável)" required><br><br>
+
+    <label for="Escola ou instituição atual"> Escola ou instituição atual:</label><br>
+    <input type="Escola ou instituição atual" id="Escola ou instituição atual" name="Escola ou instituição atual" required><br><br>
+
+    <label for="Grau de parentesco (filho biológico, adotivo, enteado, etc.)"> Grau de parentesco (filho biológico, adotivo, enteado, etc.):</label><br>
+    <input type="Grau de parentesco (filho biológico, adotivo, enteado, etc.)" id="Grau de parentesco (filho biológico, adotivo, enteado, etc.)" name="Grau de parentesco (filho biológico, adotivo, enteado, etc.)" required><br><br>
+
+    <h3> 8. Dados de Formação Escolar </h3>
+    <label for="Nome do aluno"> Nome aluno:</label> <br>
+    <input type="Nome do aluno" id="Nome do aluno" name="Nome do aluno" required><br><br>
+
+    <label for="Instituição de ensino"> Instituição de ensino:</label><br>
+    <input type="Instituição de ensino" id="Instituição de ensino" name="Instituição de ensino" required><br><br>
+
+    <label for="Ano de conclusão (se aplicável)"> Ano de conclusão (se aplicável):</label> <br>
+    <input type="Ano de conclusão (se aplicável)" id="Ano de conclusão (se aplicável)" name="Ano de conclusão (se aplicável)" required><br><br>
+
+    <label for="Curso realizado (se aplicável):"> Curso realizado (se aplicável):</label> <br>
+    <input type="Curso realizado (se aplicável)" id="Curso realizado (se aplicável)" name="Curso realizado (se aplicável)" required><br><br>
+
+    <label for="Certificado?"> Certificado? </label>
+    <input type="radio" name="Sim" value="Sim"> Sim
+    <input type="radio" name="Não" value="Não"> Não<br><br>
+
+    <button type="submit">Enviar</button> 
+    
+   
+    
+
+</label>

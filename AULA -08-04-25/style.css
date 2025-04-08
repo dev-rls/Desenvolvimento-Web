@@ -1,0 +1,32 @@
+/* Formatação  */
+
+/* Fonts tipos: - Serif, - Sem serifa ,- Display- Monospace 
+line-height: 24px - espaçamento entre linhas*/
+body {
+    background-image: url("borboleta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajusta o tamanho na tela */
+}
+
+h1 {
+    text-align: center; /* Centraliza o texto */
+    color: blue;
+}
+
+#paragrafo { 
+    color: deeppink;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid blueviolet; /* Adiciona a borda */
+}
+
+#imagem {
+    box-shadow: 10px 10px 8px black; /*inicio, profundidade, interno, cor*/
+    opacity: 0.9;
+    border: 2px solid blueviolet;
+}
+
+
+/* box model */

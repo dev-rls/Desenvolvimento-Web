@@ -5,7 +5,7 @@ line-height: 24px - espaçamento entre linhas*/
 body {
     background-image: url("borboleta.jpg");
     background-repeat: no-repeat;
-    background-size: cover; /* Ajusta o tamanho na tela */
+    background-size: cover; /*Ajusta o tamanho na tela*/
 }
 
 h1 {

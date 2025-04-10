@@ -1,0 +1,88 @@
+h1 {
+    text-align: center; /* Centraliza o texto */
+    color: black;
+}
+
+
+#paragrafo { 
+    color: deeppink;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid blueviolet; /* Adiciona a borda */
+}
+
+#imagem {
+    opacity: 0.9;
+    width: 200px;
+    height: 300px;
+}
+
+.logo {
+    align-items: center;
+    width:"50px";
+    height:"50px";
+    left: 860px;
+    position: absolute;
+}
+
+#terra {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 1900px;
+    height:600px ;
+    z-index: -1;
+}
+
+body {
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav1 {
+    position: absolute; 
+    top: 20px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+ 
+}
+.titulo {
+      color: aliceblue; 
+      font-size: 28px;
+      position: absolute;
+      top: 150px;
+      left: 0px;
+      margin: 0px;
+      padding: 0px;
+}
+
+.subtitulo {
+    color: aliceblue; 
+    font-size: 16px;
+    position: absolute;
+    top: 220px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+}
+
+.back {
+    width: 1900px;
+    height:70px ;
+     background-color: black;
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    z-index:-1;
+ 
+}

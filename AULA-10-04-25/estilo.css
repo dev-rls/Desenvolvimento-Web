@@ -3,14 +3,8 @@ h1 {
     color: black;
 }
 
-
-#paragrafo { 
-    color: deeppink;
-    font-style: oblique;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    border: 2px solid blueviolet; /* Adiciona a borda */
+body {
+    background-color: rgb(3, 28, 69);
 }
 
 #imagem {
@@ -19,7 +13,7 @@ h1 {
     height: 300px;
 }
 
-.logo {
+.logo { /* . quando é Classe*/
     align-items: center;
     width:"50px";
     height:"50px";
@@ -40,25 +34,26 @@ h1 {
 
 body {
     top: 0px;
-    left: 0px;
+    left: 10px;
     margin: 0px;
     padding: 0px;
 }
 
 .nav1 {
     position: absolute; 
+    color: aliceblue; 
     top: 20px;
-    left: 0px;
+    left: 50px;
     margin: 0px;
     padding: 0px;
  
 }
 .titulo {
       color: aliceblue; 
-      font-size: 28px;
+      font-size: 32px;
       position: absolute;
       top: 150px;
-      left: 0px;
+      left: 50px;
       margin: 0px;
       padding: 0px;
 }
@@ -68,10 +63,10 @@ body {
     font-size: 16px;
     position: absolute;
     top: 220px;
-    left: 0px;
+    left: 50px;
     margin: 0px;
     padding: 0px;
-    width: 300px;
+    width: 400px;
 }
 
 .back {
@@ -84,5 +79,84 @@ body {
     margin: 0px;
     padding: 0px;
     z-index:-1;
- 
 }
+
+.astronauta {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    height:300px ;
+    z-index: -1;  
+}
+
+.comunicado {
+    color: aliceblue; 
+    font-size: 12px;
+    font-family: "Public Sans Web", sans-serif;
+    position: absolute;
+    top: 758px;
+    left: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.chamada {
+    color: aliceblue; 
+    font-size: 16px;
+    position: absolute;
+    top: 990px;
+    left: 20px;
+    margin: 0px;
+    padding: 0px;
+    width: 350px;
+}
+
+#imagem1 {
+    position: relative;
+    top: 0px;
+    left: 15px;
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    height:300px ;
+    z-index: -1;  
+   
+}
+
+#imagem2 {
+    position: relative;
+    top: 0px;
+    left: 50px;
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    height:300px ;
+    z-index: -1;
+}
+
+#imagem3 {
+    position: absolute;
+    top: 758px;
+    left: 1090px;
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    height:300px ;
+    z-index: -1;
+}
+
+#Notícias {
+    position: relative;
+    color: aliceblue;
+    top: 30px;
+    left: 50px;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    height:100px ;
+    align-items: center;
+    
+} 

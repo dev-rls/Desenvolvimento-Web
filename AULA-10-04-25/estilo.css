@@ -139,8 +139,8 @@ body {
 
 #imagem3 {
     position: absolute;
-    top: 758px;
-    left: 1090px;
+    top: 1100px;
+    left: 10px;
     margin: 0px;
     padding: 0px;
     width: 500px;
@@ -160,3 +160,30 @@ body {
     align-items: center;
     
 } 
+
+#Imagens {
+    margin-top: 20px;
+}
+
+#Imagens div {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#Imagens img {
+    float: left;
+    margin-right: 15px;
+    width: 150px;
+    height: auto;
+}
+
+.Rodapé {
+    color: aliceblue; 
+    font-size: 16px;
+    position: absolute;
+    top: 1300px;
+    left: 20px;
+    margin: 0px;
+    padding: 0px;
+    width: 350px;
+}

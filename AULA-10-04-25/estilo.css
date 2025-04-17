@@ -1,10 +1,6 @@
 h1 {
     text-align: center; /* Centraliza o texto */
-    color: black;
-}
-
-body {
-    background-color: rgb(3, 28, 69);
+    color: rgb(197, 29, 29);
 }
 
 #imagem {
@@ -23,7 +19,7 @@ body {
 
 #terra {
     position: relative;
-    top: 0px;
+    top: 20px;
     left: 0px;
     margin: 0px;
     padding: 0px;
@@ -37,6 +33,7 @@ body {
     left: 10px;
     margin: 0px;
     padding: 0px;
+    background-color: rgba(22, 1, 48, 0.907);
 }
 
 .nav1 {
@@ -53,7 +50,7 @@ body {
       font-size: 32px;
       position: absolute;
       top: 150px;
-      left: 50px;
+      left: 800px;
       margin: 0px;
       padding: 0px;
 }
@@ -63,7 +60,7 @@ body {
     font-size: 16px;
     position: absolute;
     top: 220px;
-    left: 50px;
+    left: 800px;
     margin: 0px;
     padding: 0px;
     width: 400px;
@@ -72,7 +69,7 @@ body {
 .back {
     width: 1900px;
     height:70px ;
-     background-color: black;
+    background-color: rgba(22, 1, 48, 0.985);
     position: absolute; 
     top: 0px;
     left: 0px;
@@ -151,7 +148,7 @@ body {
 #Notícias {
     position: relative;
     color: aliceblue;
-    top: 30px;
+    top: 40px;
     left: 50px;
     margin: 0px;
     padding: 0px;

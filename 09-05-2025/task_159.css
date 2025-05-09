@@ -1,0 +1,44 @@
+.tela-user-inicial-pag-dois {
+    background-color: black;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto;
+    
+}
+.info-pag-inicial-user-dois{
+    background-color: black;
+    grid-column: 10/13;
+    grid-row: 5/9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.txt_user_pag_inicial-dois{
+    width: 706px;
+    color: white;
+    font-size: 24px;
+    font-family: "Quatro-SemiBold", sans-serif;
+    text-align: justify;
+    margin-top: 200px;
+}
+
+    #img_Planta {
+    margin-top: -200px;
+    width: 90px;
+    height: 90px;
+}
+
+#txt_user_pontuacao-setor{
+    width: 706px;
+    color: white;
+    font-size: 20px;
+    font-family: "Quatro-SemiBold", sans-serif;
+    text-align: justify;
+    margin-top: 100px;
+    left: 100px;
+}

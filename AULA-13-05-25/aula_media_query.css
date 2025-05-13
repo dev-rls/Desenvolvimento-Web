@@ -1,0 +1,34 @@
+/*Estilo padrão*/
+body {
+    background-color:  rgb(215,69,69);
+    font-size: 20px;
+}
+/*Estilo aplicado em telas com largura máxima de 768*/
+@media (max-width:768px) {
+    body{
+        background-color: lightgray;
+        font-size: 12px;
+    }
+}
+
+/* Estilo padrão (mobile first) */
+.container{
+    width: 90%;
+    font-size: 1rem;
+}
+
+/* Tablets */
+@media(min-width: 768px) {
+    .container{
+        width: 80%;
+        font-size: 1.2rem;
+    } 
+}
+
+/* Desktops */
+@media(min-width: 1024px){
+    .container{
+        width: 70%;
+        font-size: 1.4rem;
+    }
+}

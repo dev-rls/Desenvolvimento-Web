@@ -1,5 +1,5 @@
 
-body {
+  body{
     margin: 0;
     font-family: 'Quatro-Medium', sans-serif;
     color: white;
@@ -9,54 +9,55 @@ body {
     justify-content: center;
     align-items: center;
     background: #032639 50%;
+    z-index: -1;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    gap: 20px;
-    width: 80%;
-    max-width: 1000px;
+.caixa_principal_user_page_dois{
+    gap: 10px;
+    width: 50%;
+    max-width: 100%;
     align-items: center;
     position: relative;
 }
 
-.title {
-    grid-column: 2 / 2;
+.titulo_page_dois_user {
+    grid-column: 1 / 2;
     grid-row: 1 / 2;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
+    width: 400px;
 }
 
-.tree {
-    grid-column: 3/ 3;
-    grid-row: 1 / 2;
+.arvore_page_dois_user {
+    grid-column: 2/ 3;
+    grid-row: 2 / 2;
     justify-self: end;
-    width: 100px;
+    width: 80px;
     height: 100px;
-    background: url('img_Planta.png') no-repeat center;
     background-size: contain;
+    margin-left: 100%;
+    margin-top: -18%;
 }
 
-.sectors {
+.setores_page_dois_user {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 3 / 3;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-items: center;
     align-items: center;
+    margin-left: 15%;
 }
 
-.sector {
+.setor_page_dois_user {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.circle {
+.circulo {
     width: 80px;
     height: 80px;
     position: relative;
@@ -67,7 +68,7 @@ body {
     font-weight: bold;
 }
 
-.circle::before {
+.circulo::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -77,7 +78,7 @@ body {
     z-index: -1;
 }
 
-.circle::after {
+.circulo::after {
     content: '';
     position: absolute;
     width: 80%;
@@ -87,13 +88,13 @@ body {
     z-index: -1;
 }
 
-.sector-label {
+.setor-lbl_page_dois_user {
     margin-top: 20px;
     font-size: 1rem;
 }
 
-/* Individual progress colors */
-.circle.juridico { --color: #ff4d4d; --progress: 20; }
-.circle.administrativo { --color: #ffaa00; --progress: 35; }
-.circle.financeiro { --color: #00aaff; --progress: 58; }
-.circle.marketing { --color: #00cc00; --progress: 81; }
+/* Progresso Individual */
+.circulo.juridico { --color: #ff4d4d; --progress: 20; }
+.circulo.administrativo { --color: #ffaa00; --progress: 35; }
+.circulo.financeiro { --color: #00aaff; --progress: 58; }
+.circulo.marketing { --color: #00cc00; --progress: 81; }

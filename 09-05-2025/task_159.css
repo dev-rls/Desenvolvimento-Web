@@ -1,64 +1,133 @@
-/* Tela 2 inicial usuário */
-.background-user-inicial-pag2 {
+html, body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.body_page_dois_user {
+    margin: 0;
+    font-family: 'Quatro-Medium', sans-serif;
+    color: white;
+    height: 100%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #032639;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto;
+    background: #032639;
 }
 
-#container-user-pag2 {
+/* Contêiner principa*/
+.caixa_principal_user_page_dois {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    width: 30%;
+    max-width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+/* Contêiner para título e imagem */
+.titulo_container {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Título principal */
+.titulo_page_dois_user {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Subtítulo */
+.subtitulo_page_dois_user {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* Imagem posicionada à direita do título */
+.arvore_page_dois_user {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 100px;
+    background-size: contain;
+}
+
+/* Setores abaixo do subtítulo */
+.setores_page_dois_user {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Estilo dos setores individuais */
+.setor_page_dois_user {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    gap: 15px;
-    margin-left: 0;
-    margin-top: 0;
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
-    border: 2px solid beige;
 }
 
-#text-content-user-pag2 {
-    text-align: center;
+/* Estilo dos círculos de progresso */
+.circulo {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: transparent;
+    z-index: 1;
+}
+
+.circulo::before {
+    content: '';
+    position: absolute;
     width: 100%;
-    height: auto;
-    color: white;
-    font-size: 24px;
-    font-family: 'Quatro-Medium', sans-serif;
-    margin: 0;
-    display: flex;
-    grid-column: 1 / 3;
-    grid-row: 2 / 2;
-    border: 2px solid beige;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(var(--color) 0deg, var(--color) calc(var(--progress) * 3.6deg), #1a3c5e calc(var(--progress) * 3.6deg), #1a3c5e 360deg);
+    z-index: -2;
 }
 
-.text-user-pag2 {
-    font-size: 40px;
-    margin: 0;
+.circulo::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background: #032639;
+    border-radius: 50%;
+    z-index: -1;
 }
 
-.img_arvore-user-pag2 {
+/* Rótulos dos setores */
+.setor-lbl_page_dois_user {
     margin-top: 20px;
-    width: 117px;
-    height: 173px;
+    font-size: 1rem;
 }
 
-.img_dashboard_user-pag-2 {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    width: 90%;
-    height: auto;
-    grid-column: 1 / 3;
-    grid-row: 2 / 3;
-    border: 2px solid beige;
-}
-/* Fim tela 2 inicial usuário */
+/* Progresso Individual */
+.circulo.juridico { --color: #ff4d4d; --progress: 20; }
+.circulo.administrativo { --color: #ffaa00; --progress: 35; }
+.circulo.financeiro { --color: #00aaff; --progress: 58; }
+.circulo.marketing { --color: #00cc00; --progress: 81; }

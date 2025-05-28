@@ -1,16 +1,9 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-}
-
 .body_page_dois_user {
     margin: 0;
+    padding: 0;
     font-family: 'Quatro-Medium', sans-serif;
     color: white;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -110,3 +103,8 @@ html, body {
 .circulo.administrativo { --color: #ffaa00; --progress: 35; }
 .circulo.financeiro { --color: #00aaff; --progress: 58; }
 .circulo.marketing { --color: #00cc00; --progress: 81; }
+
+*{
+    margin: 0;
+    padding: 0;   
+}

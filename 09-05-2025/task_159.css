@@ -1,4 +1,4 @@
-  /* Início tela usuário pagina dois */
+    /* Início tela usuário pagina dois */
 *{
     margin: 0;
     padding: 0;
@@ -38,13 +38,13 @@
   grid-column: 4;
   grid-row: 2;
   font-size: 1.2rem;
-  font-weight: normal;
+  font-weight: bold;
   text-align: center;
 }
 
 #subtitulo_page_dois_user{
-    font-size: 2vh;
-    font-size: 1vw;
+    font-size: 3vh;
+    font-size: 2vw;
 }
 /* Imagem posicionada à direita do título */
 .arvore_page_dois_user {
@@ -56,7 +56,7 @@
 
 .img_arvore_page_dois_user {
     width: 50%;
-    height: 50%;
+    height: 60%;
  }
 /* Grid setores */
 .setores_page_dois_user {

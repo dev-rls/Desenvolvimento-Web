@@ -1,0 +1,49 @@
+.custom-card {
+      background-color: #1a2b3c;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .form-label {
+      color: white;
+    }
+    .form-control {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #6c757d;
+      color: white;
+      border-radius: 0;
+      padding-right: 30px;
+    }
+    .form-control:focus {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #6c757d;
+      box-shadow: none;
+      color: white;
+    }
+    .input-group {
+      position: relative;
+    }
+    .input-group .pencil-icon {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #6c757d;
+      pointer-events: none;
+    }
+    .btn-custom {
+      background-color: #C6FE1F;
+      border: none;
+      color: black;
+      font-weight: bold;
+    }
+    .btn-custom:hover {
+      background-color: #C6FE1F;
+    }
+    #editar-btn {
+      width: 243px;
+      height: 49px;
+    }

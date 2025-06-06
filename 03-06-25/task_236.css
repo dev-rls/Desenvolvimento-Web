@@ -1,49 +1,88 @@
+
 .custom-card {
-      background-color: #1a2b3c;
-      color: white;
-      border: none;
-      border-radius: 10px;
-      padding: 20px;
-    }
-    .form-label {
-      color: white;
-    }
-    .form-control {
-      background: transparent;
-      border: none;
-      border-bottom: 1px solid #6c757d;
-      color: white;
-      border-radius: 0;
-      padding-right: 30px;
-    }
-    .form-control:focus {
-      background: transparent;
-      border: none;
-      border-bottom: 1px solid #6c757d;
-      box-shadow: none;
-      color: white;
-    }
-    .input-group {
-      position: relative;
-    }
-    .input-group .pencil-icon {
-      position: absolute;
-      right: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      color: #6c757d;
-      pointer-events: none;
-    }
-    .btn-custom {
-      background-color: #C6FE1F;
-      border: none;
-      color: black;
-      font-weight: bold;
-    }
-    .btn-custom:hover {
-      background-color: #C6FE1F;
-    }
-    #editar-btn {
-      width: 243px;
-      height: 49px;
-    }
+  background-color: #032639;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.card-title-text-center {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+
+.form-label {
+  color: white;
+  font-weight: 500;
+}
+
+.input_group {
+  position: relative;
+
+}
+.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  color: white;
+  padding-right: 30px; 
+}
+
+.form-control:focus {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  box-shadow: none;
+  color: white;
+}
+
+.pencil-icon{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  color: red;
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+.btn_alterar_senha {
+  background-color: #C6FE1F;
+  border: none;
+  color: #032639;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  width: 243px;
+  height: 49px;
+}
+
+.btn_alterar_senha:hover {
+  background-color: #2DAEFF;
+}
+
+#btn_editar {
+  width: 243px;
+  height: 49px;
+}
+
+.btn_alterar_senha, #btn_editar {
+  display: inline-block;
+}
+
+@media (max-width: 576px) {
+  .custom-card {
+    padding: 20px;
+  }
+  #btn_editar, .btn_alterar_senha {
+    width: 100%;
+    height: auto;
+  }}

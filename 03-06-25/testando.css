@@ -1,66 +1,94 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #1a1a2e;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+*{
+  background-color: #032639;
 }
-
-.container {
-    text-align: center;
+ 
+.informacoes_pessoa_fisica {
+  background-color: #032639;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
-
-.edit-box {
-    background-color: #16213e;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ 
+#txt-editar-informacoes-fisicas {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
 }
-
-h2 {
-    margin-bottom: 20px;
+ 
+ 
+.lbl_pessoa_fisica {
+  color: white;
+  font-weight: 400;
+  width: 100%;
+  display: inline-block;
 }
-
-.form-group {
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
+ 
+ 
+.input_pessoa_fisica {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  border-radius: 0;
+  color: white;
+  width: 80%;
 }
-
-label {
-    flex: 1;
-    text-align: right;
-    margin-right: 10px;
+ 
+.input_pessoa_fisica:focus{
+  outline: none;
+ 
 }
-
-input {
-    flex: 2;
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
+ 
+.pencil-icon{
+  position: relative;
+  right: 0;
+  top: 50%;
+  color: white;
+  font-size: 1rem;
+  pointer-events: none;
+  transform: translateY(-50%);
 }
-
-.icon-pencil {
-    margin-left: 10px;
+ 
+.btn_alterar_senha_pessoa_fisica {
+  background-color: #C6FE1F;
+  border: none;
+  color: #032639;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  width: 243px;
+  height: 49px;
+  margin: 20px auto 0;
 }
-
-.edit-button, .change-password-button {
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
+ 
+.btn_alterar_senha_pessoa_fisica:hover {
+  background-color: #2DAEFF;
 }
-
-.change-password-button {
-    margin-top: 20px;
+ 
+.btn_editar_pessoa_fisica {
+  width: 243px;
+  height: 49px;
+  background-color: #C6FE1F;
+  color: #032639;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px auto 0;
 }
-
-.edit-button:hover, .change-password-button:hover {
-    background-color: #218838;
+ 
+.btn_alterar_senha_pessoa_fisica, .btn_editar_pessoa_fisica {
+  display: inline-block;
 }
+ 
+.btn_editar_pessoa_fisica, .btn_alterar_senha_pessoa_fisica {
+    width: auto;
+    height: auto;
+  }
+ 
+ 
+ 

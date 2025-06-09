@@ -1,59 +1,63 @@
-*{
+* {
   background-color: #032639;
 }
- 
+
+
 .informacoes_pessoa_fisica {
+  padding: 30px;
   background-color: #032639;
   color: #FFFFFF;
   border: none;
   border-radius: 10px;
-  padding: 20px;
   max-width: 500px;
   margin: 20px auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
- 
+
 #txt-editar-informacoes-fisicas {
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
   text-align: center;
 }
- 
- 
+
+.if_pessoa_fisica {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-right: 15px;
+}
+
 .lbl_pessoa_fisica {
   color: white;
   font-weight: 400;
-  width: 100%;
-  display: inline-block;
+  text-align: right;
+  width: 30%;
+  margin-right: 10px;
 }
- 
- 
+
 .input_pessoa_fisica {
   background: transparent;
   border: none;
   border-bottom: 1px solid #FFFFFF;
-  border-radius: 0;
   color: white;
-  width: 80%;
+  width: 100%;
 }
- 
-.input_pessoa_fisica:focus{
+
+.input_pessoa_fisica:focus {
   outline: none;
- 
 }
- 
-.pencil-icon{
+
+.pencil-icon {
   position: relative;
-  right: 0;
-  top: 50%;
+  right: 15px;
   color: white;
   font-size: 1rem;
   pointer-events: none;
-  transform: translateY(-50%);
 }
- 
-.btn_alterar_senha_pessoa_fisica {
+
+.btn_alterar_senha_pessoa_fisica,
+.btn_editar_pessoa_fisica {
   background-color: #C6FE1F;
   border: none;
   color: #032639;
@@ -63,32 +67,12 @@
   transition: background-color 0.3s ease;
   width: 243px;
   height: 49px;
-  margin: 20px auto 0;
+  margin: 60px auto 10px;
+  display: block;
+  text-align: center;
 }
- 
-.btn_alterar_senha_pessoa_fisica:hover {
+
+.btn_alterar_senha_pessoa_fisica:hover,
+.btn_editar_pessoa_fisica:hover {
   background-color: #2DAEFF;
 }
- 
-.btn_editar_pessoa_fisica {
-  width: 243px;
-  height: 49px;
-  background-color: #C6FE1F;
-  color: #032639;
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 10px;
-  margin: 20px auto 0;
-}
- 
-.btn_alterar_senha_pessoa_fisica, .btn_editar_pessoa_fisica {
-  display: inline-block;
-}
- 
-.btn_editar_pessoa_fisica, .btn_alterar_senha_pessoa_fisica {
-    width: auto;
-    height: auto;
-  }
- 
- 
- 

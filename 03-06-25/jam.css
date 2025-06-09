@@ -1,0 +1,84 @@
+*{
+  background-color: #032639;
+}
+ 
+.informacoes-juridicas {
+  background-color: #032639;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+ 
+#txt-editar-informacoes-juridicas {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+ 
+ 
+.label-informacoes-juridicas {
+  color: white;
+  font-weight: 500;
+}
+ 
+ 
+.input-informacoes-juridicas {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  border-radius: 0;
+  color: white;
+  width: 80%;
+}
+ 
+.input-informacoes-juridicas:focus{
+  outline: none;
+ 
+}
+ 
+.pencil-icon{
+  position: relative;
+  right: 0;
+  top: 50%;
+  color: white;
+  font-size: 1rem;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+ 
+.btn_alterar_senha {
+  background-color: #C6FE1F;
+  border: none;
+  color: #032639;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  width: 243px;
+  height: 49px;
+}
+ 
+.btn-alterar-senha-informacoes-juridicas:hover {
+  background-color: #C6FE1F;
+}
+ 
+.btn-editar-informacoes-juridicas {
+  width: 243px;
+  height: 49px;
+}
+ 
+.btn-alterar-senha-informacoes-juridicas, .btn-editar-informacoes-juridicas {
+  display: inline-block;
+}
+ 
+.btn-editar-informacoes-juridica, .btn-alterar-senha-informacoes-juridicas {
+    width: 100%;
+    height: auto;
+  }
+ 
+ 

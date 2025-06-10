@@ -1,11 +1,12 @@
+/* Início - Editar Informações Pessoa Física (Tela usuário) */
 .informacoes_pessoa_fisica {
-  padding: 30px;
+  padding: 2%;
   background-color: #032639;
   color: #FFFFFF;
   border: none;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   max-width: 34%;
-  margin: 20px auto;
+  margin: 1% auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
   font-family: 'Quatro', sans-serif;
 }
@@ -21,8 +22,8 @@
 .if_pessoa_fisica {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
-  padding-right: 15px;
+  margin-bottom: 1.5%;
+  padding-right: 1.5%;
 }
 
 .lbl_pessoa_fisica {
@@ -30,14 +31,14 @@
   font-weight: 400;
   text-align: right;
   width: 30%;
-  margin-right: 15px;
+  margin-right: 1.5%;
   font-weight: bold;
 }
 
 .input_pessoa_fisica {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 0.0625rem solid #FFFFFF;
   color: white;
   width: 100%;
 }
@@ -48,24 +49,38 @@
 
 .icon_pf {
   position: relative;
-  right: 15px;
+  right: 3%;
   color: white;
   font-size: 1rem;
   pointer-events: none;
 }
 
-.btn_alterar_senha_pessoa_fisica,
+.btn_alterar_senha_pessoa_fisica {
+  background-color: #C6FE1F;
+  border: none;
+  color: #032639;
+  font-weight: bold;
+  padding: 1% 2%;
+  border-radius: 0.625rem;
+  transition: background-color 0.3s ease;
+  width: 243px;
+  height: 49px;
+  margin: 4% auto 0;
+  display: block;
+  text-align: center;
+  font-family: 'Quatro', sans-serif;
+}
 .btn_editar_pessoa_fisica {
   background-color: #C6FE1F;
   border: none;
   color: #032639;
   font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 10px;
+  padding: 1% 2%;
+  border-radius: 0.625rem;
   transition: background-color 0.3s ease;
   width: 243px;
   height: 49px;
-  margin: 60px auto 10px;
+  margin: 15% auto 0.5%;
   display: block;
   text-align: center;
   font-family: 'Quatro', sans-serif;
@@ -75,3 +90,4 @@
 .btn_editar_pessoa_fisica:hover {
   background-color: #2DAEFF;
 }
+/* Fim - Editar Informações Pessoa Física (Tela usuário) */

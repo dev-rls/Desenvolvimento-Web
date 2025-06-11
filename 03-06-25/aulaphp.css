@@ -1,0 +1,76 @@
+/* <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandGrow - Business Intelligence</title>
+    <link rel="stylesheet" href="task_159.css">
+</head>
+<body>
+teste php
+
+</body>
+</html> */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+
+.alternativas_perguntas {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.pergunta {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.quiz_tela_perguntas {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+
+.quiz_tela_perguntas input[type="radio"] {
+  display: none;
+}
+
+
+.quiz_tela_perguntas label::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-color: #fff;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+
+.quiz_tela_perguntas input[type="radio"]:checked + label::before {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+
+.quiz_tela_perguntas label {
+  font-size: 1em;
+  cursor: pointer;
+}
+
+
+ 

@@ -1,55 +1,55 @@
-
- 
-body {
-  background-color: black;
-  
+*{
+	background-color: #032639;
 }
- 
+
 .alternativas_perguntas {
   color: #fff;
   padding: 2%;
-  font-family: 'Quatro', sans-serif;
-  width: 40%;
+  font-family: 'Quatro-Light', sans-serif;
+  width: 50%;
 }
- 
+
 .pergunta {
-  font-size: 1em;
+  font-size: 0.9em;
   color: #fff;
   margin-bottom: 5%;
 }
- 
+
 .quiz_tela_perguntas {
   margin-bottom: 5%;
   display: flex;
   align-items: center;
 }
- 
- 
+
 .quiz_tela_perguntas input[type="radio"] {
   display: none;
 }
- 
+
+.quiz_tela_perguntas label {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  cursor: pointer;
+  width: auto;
+  margin-right: 1%;
+}
+
 .quiz_tela_perguntas label::before {
   content: "";
   display: inline-block;
-  width: 2.5%;
-  height: 20px;
+  width: 2%;
+  height: 15px;
   border: 2px solid #fff;
-  margin-right: 1%;
-  vertical-align: middle;
+  margin-right: 3%;
   transition: background-color 0.3s, border-color 0.3s;
 }
- 
- 
+
 .quiz_tela_perguntas input[type="radio"]:checked + label::before {
   background-color: #0CD508;
   border-color: #0CD508;
 }
- 
-.quiz_tela_perguntas label {
-  font-size: 1em;
-  cursor: pointer;
-  width: 100%;
+
+.quiz_tela_perguntas span {
+  color: #fff;
+  font-size: 0.9em;
 }
- 
- 
